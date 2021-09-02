@@ -1,12 +1,13 @@
 body {
-  background: linear-gradient(to right, #63e6be, #38d9a9);
+  background: linear-gradient(to top, #63e6be, #44e9d8);
   width: 100vw;
   height: 100vh;
   overflow: hidden;
 }
 
+// 38d9a9
+
 section {
-  border: solid;
   height: 100%;
   width: 100%;
   display: flex;
@@ -18,15 +19,20 @@ section {
     justify-content: space-between;
     flex-direction: column;
     padding: 3%;
-    border: solid;
+
     height: 30%;
     flex: 1;
     h3 {
       font-size: 40px;
       font-weight: bold;
+      color: #fff;
+      text-shadow: 4px 4px 0px #20c997;
     }
     p {
       font-size: 24px;
+      color: #fff;
+      text-shadow: 1px 2px 0px #20c997;
+      line-height: 30px;
     }
 
     button {
@@ -41,6 +47,7 @@ section {
       box-sizing: border-box;
       box-shadow: 1px 1px 3px 1px #495057;
       border-radius: 10px;
+
       &:hover {
         background: #3ed3c4;
       }
