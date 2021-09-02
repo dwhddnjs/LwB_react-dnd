@@ -3,10 +3,14 @@
   align-items: center;
   justify-content: flex-start;
   height: 60px;
+  position: relative;
   img {
     width: 50px;
     height: 50px;
-    filter: opacity(0.5) drop-shadow(0 0 0 green);
+    filter: opacity(0.2) drop-shadow(0 0 0 #20c997);
+    position: absolute;
+    top: 0;
+    left: 100px;
   }
 
   .home-title {
