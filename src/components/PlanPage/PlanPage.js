@@ -2,6 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import Header from "../UI/Header";
 import PlanItem from "../UI/PlanItem";
+import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 import "./PlanPage.scss";
 
 function PlanPage() {
