@@ -1,0 +1,29 @@
+.item-container {
+  //   border: solid;
+  display: flex;
+  align-items: center;
+  width: 41%;
+  height: 13%;
+  margin: 15px;
+  border-radius: 10px;
+  background: #3bc6b7;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 0 #96b1ac;
+  img {
+    background: #fff;
+  }
+  .item-des {
+    text-shadow: 1px 1px 1px gray;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+
+    .item-name {
+    }
+    .item-target {
+    }
+  }
+}
