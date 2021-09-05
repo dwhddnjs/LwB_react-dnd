@@ -1,79 +1,72 @@
-.plan {
+.plan-page {
   width: 100vw;
   height: 100vh;
   background: linear-gradient(to top, #63e6be, #44e9d8);
   overflow: hidden;
-  body {
+  .plan-body {
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 100%;
     height: 100%;
-    section {
-      height: 100%;
-      width: 80%;
+    .plan-list {
       display: flex;
-      flex-direction: row;
-      .list-container {
-        flex: 1;
-        height: 100%;
-        span {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 40px;
-          font-weight: 600;
-          color: #fff;
-          text-shadow: 4px 4px 0px #20c997;
-        }
-        .list-content {
-          // border: solid;
-          flex-wrap: wrap;
-          display: flex;
-          justify-content: center;
-          align-items: flex-start;
-          flex-direction: row;
-          height: 85%;
-          margin-left: 10%;
-          margin-right: 10%;
-          margin-top: 2.5%;
-          background: #fff;
-          border-radius: 30px;
-          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3),
-            0 15px 12px rgba(0, 0, 0, 0.22);
-          img {
-            width: 100px;
-            height: 100px;
-            margin: 10px;
-          }
-        }
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      // width: 100%;
+      margin-top: 2%;
+      h2 {
+        font-size: 40px;
+        font-weight: 600;
+        color: #fff;
+        text-shadow: 4px 4px 0px #20c997;
       }
-      .plan-container {
-        flex: 1;
-        height: 100%;
-        span {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 40px;
-          font-weight: 600;
-          color: #fff;
-          text-shadow: 4px 4px 0px #20c997;
-        }
-        .plan-content {
+      .plan-boxs {
+        margin: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // width: 100%;
+        .plan-lists {
+          padding: 4px;
+          width: 500px;
+          min-height: 750px;
           height: 85%;
           margin-left: 10%;
           margin-right: 10%;
           margin-top: 2.5%;
           background: #fff;
           border-radius: 30px;
-          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3),
-            0 15px 12px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3);
+          .plan-item {
+            padding: 16px;
+            margin: 0 0 8px 0;
+            min-height: 50px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            margin: 15px;
+            border-radius: 10px;
+            background: #32a89d;
+            box-sizing: border-box;
+            box-shadow: 5px 5px 0 #96b1ac;
+            font-size: 20px;
+            img {
+              width: 50px;
+              height: 50px;
+              margin-right: 20px;
+            }
+            .item-des {
+              text-shadow: 1px 1px 1px gray;
+              line-height: 30px;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              color: #fff;
+              font-weight: 600;
+            }
+          }
         }
       }
     }
   }
 }
-
-// list-content
-//
