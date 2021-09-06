@@ -47,14 +47,14 @@ const onDragEnd = (result, list, setList) => {
       },
     });
   } else {
-    const list = list[source.droppableId];
-    const copiedItems = [...list.items];
+    const lists = list[source.droppableId];
+    const copiedItems = [...lists.items];
     const [removed] = copiedItems.splice(source.index, 1);
     copiedItems.splice(destination.index, 0, removed);
     setList({
       ...list,
       [source.droppableId]: {
-        ...list,
+        ...lists,
         items: copiedItems,
       },
     });

@@ -2,8 +2,16 @@ import React from "react";
 import "./HomePage.scss";
 import Header from "../UI/Header";
 import dead from "../../img/dead.jpeg";
+import planPage from "../PlanPage/PlanPage";
+import { useHistory } from "react-router-dom";
 
 function HomePage() {
+  const history = useHistory();
+
+  const goToPlan = () => {
+    history.push("/plan");
+  };
+
   return (
     <div className="home">
       <Header />
@@ -16,7 +24,7 @@ function HomePage() {
               추가 삭제하여 본인에게 맞는 체계적인 운동루틴을 계획하고 실천하여
               근성장을 이뤄봅시다 .
             </p>
-            <button>Get Started</button>
+            <button onClick={goToPlan}>Get Started</button>
           </div>
           <div className="home-right">
             <img src={dead} alt="뭐 대충 gif" />
