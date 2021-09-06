@@ -4,6 +4,7 @@ import Header from "../UI/Header";
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 import { v4 as uuid } from "uuid";
 import arm from "../../img/arm.png";
+import { useHistory } from "react-router-dom";
 import "./PlanPage.scss";
 
 const workOutList = [
@@ -63,6 +64,7 @@ const onDragEnd = (result, list, setList) => {
 
 function PlanPage() {
   const [list, setList] = useState(workOutTitle);
+  const history = useHistory();
 
   return (
     <div className="plan-page">
