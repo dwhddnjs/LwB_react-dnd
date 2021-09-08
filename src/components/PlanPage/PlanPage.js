@@ -12,6 +12,7 @@ const workOutList = [
   { id: uuid(), name: "스쿼트", target: "하체" },
   { id: uuid(), name: "데드리프트", target: "하체" },
   { id: uuid(), name: "숄더프레스", target: "하체" },
+  { id: uuid(), name: "사레레", target: "어깨" },
 ];
 
 const workOutTitle = {
