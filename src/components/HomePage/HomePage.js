@@ -22,7 +22,7 @@ function HomePage() {
             <p>
               다양한 웨이트 운동 종목과 운동 세트수를 정한 후 마우스 드래그로
               추가 삭제하여 본인에게 맞는 체계적인 운동루틴을 계획하고 실천하여
-              근성장을 이뤄봅시다 .
+              근성장을 이뤄봅시다.
             </p>
             <button onClick={goToPlan}>Get Started</button>
           </div>
