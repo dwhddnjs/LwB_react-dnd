@@ -14,6 +14,7 @@ const workOutList = [
   { id: uuid(), name: "숄더프레스", target: "하체" },
   { id: uuid(), name: "사레레", target: "어깨" },
   { id: uuid(), name: "바벨로우", target: "등" },
+  { id: uuid(), name: "벤레레", target: "어깨" },
 ];
 
 const workOutTitle = {
