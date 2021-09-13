@@ -1,5 +1,4 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Header from "../UI/Header";
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 import { v4 as uuid } from "uuid";

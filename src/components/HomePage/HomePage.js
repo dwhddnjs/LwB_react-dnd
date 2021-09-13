@@ -2,7 +2,6 @@ import React from "react";
 import "./HomePage.scss";
 import Header from "../UI/Header";
 import dead from "../../img/dead.jpeg";
-import planPage from "../PlanPage/PlanPage";
 import { useHistory } from "react-router-dom";
 
 function HomePage() {
