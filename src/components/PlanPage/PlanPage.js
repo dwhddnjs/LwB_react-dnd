@@ -63,7 +63,6 @@ const onDragEnd = (result, list, setList) => {
 
 function PlanPage() {
   const [list, setList] = useState(workOutTitle);
-  const history = useHistory();
 
   return (
     <div className="plan-page">
