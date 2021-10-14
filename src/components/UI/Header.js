@@ -10,7 +10,7 @@ function Header() {
   };
   return (
     <div className="home-header">
-      <img src={arm} alt="" />
+      <img src={arm} alt="no img" />
       <div className="home-title" onClick={goToHome}>
         LwB
       </div>
