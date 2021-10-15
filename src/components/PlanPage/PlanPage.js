@@ -3,15 +3,12 @@ import Header from "../UI/Header";
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 import { v4 as uuid } from "uuid";
 import arm from "../../img/arm.png";
-import { useHistory } from "react-router-dom";
 import "./PlanPage.scss";
 
 const workOutList = [
   { id: uuid(), name: "벤치프레스", target: "가슴" },
   { id: uuid(), name: "스쿼트", target: "하체" },
   { id: uuid(), name: "데드리프트", target: "하체" },
-  { id: uuid(), name: "바벨로우", target: "등" },
-  { id: uuid(), name: "오버헤드", target: "어깨" },
 ];
 
 const workOutTitle = {
